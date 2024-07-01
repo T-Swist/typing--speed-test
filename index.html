@@ -1,0 +1,41 @@
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Test</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <!-- General container for the typing speed test -->
+  <section class="gene-cont">
+    <h1>Typing Speed Test</h1>
+    
+    <!-- Container for the actual test -->
+    <div class="first-div">
+      
+      <!-- Main container for the paragraph -->
+      <div class="para-mainc">
+         <p id="paragraph_Co"></p>
+         <input type="text" id="type_input">
+      </div>
+      
+      <!-- Container for displaying results -->
+      <div class="result-div">
+        <p>Time Left: <span id="tlest_Span">60s</span></p>
+        <p>Errors: <span id="error_Span">0</span></p>
+        <p>WPM: <span id="wpm_Span">0</span></p>
+        <p>CPM: <span id="cpm_Span">0</span></p>
+        <button id="start_Test">Start Game</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Link to external JavaScript file -->
+  <script src="./script.js"></script>
+</body>
+</html>
